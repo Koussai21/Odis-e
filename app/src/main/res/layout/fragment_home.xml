@@ -20,13 +20,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214" />
+        app:layout_constraintVertical_bias="0.232" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="115dp"
         android:layout_height="79dp"
+        android:layout_marginBottom="324dp"
+        android:insetTop="6dp"
+        android:insetBottom="6dp"
         android:text="Créer un carnet"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="364dp" />
+        android:translationX="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
