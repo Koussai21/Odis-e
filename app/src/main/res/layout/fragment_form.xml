@@ -1,0 +1,46 @@
+<!-- res/layout/fragment_travel_form.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lieu"
+        tools:text="Paris" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        tools:text="Une belle description du lieu" />
+
+    <EditText
+        android:id="@+id/editTextRecommendations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recommandations"
+        tools:text="Quelques recommandations pour les visiteurs" />
+
+    <!-- Button pour ajouter des photos -->
+    <Button
+        android:id="@+id/buttonAddPhotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter des photos" />
+
+    <!-- Affichage des photos ajoutées (peut être une RecyclerView) -->
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer" />
+</LinearLayout>
